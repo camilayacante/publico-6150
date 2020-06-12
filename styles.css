@@ -1,0 +1,50 @@
+/*DARK: #0C0E11*/
+/*LIGHT: #EAECEE*/
+
+:root {
+	font-size: 20px;
+}
+
+/*Estructura*/
+body {
+	background-color: #EAECEE;
+	margin: 0;
+	color: #555555;
+	font-size: 1rem;
+	font-family: monospace;
+}
+
+header {background-color: #0C0E11; padding: 16px 0; margin-bottom: 48px;}
+footer > p,
+main > section,
+header > nav {width: 1200px; max-width: 100%; margin: auto;}
+nav a {display: inline-block;}
+
+/*Texto*/
+p {margin-bottom: 16px; margin-top: 0; text-align: justify;}
+a {text-decoration: none; font-weight: bold; color: #566573;}
+header a {font-size: 24px; color: #fff; display: inline-block; }
+header a + a {margin-left: 12px;}
+footer p {font-weight: bold;}
+footer p span {opacity: .6;}
+
+h1 {text-transform: uppercase;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Lora";
+	margin-bottom: 8px;
+	margin-top: 0;
+}
+
+h2 {font-size: 1.5rem; text-align: left;}
+
+ul.lista {list-style: none; padding-left: 0;}
+
+/*Imagenes*/
+main section img {float: right; margin: 16px}
+header img {display: inline-block; margin-right: 24px;}
